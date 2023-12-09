@@ -1,0 +1,13 @@
+Details for AI Pathfinding
+
+The pathfinding within this game works by finding the shortest path from the enemies to
+a specified location. This location is determined by many different factors and states
+in the game.
+
+6 objects in each room have been set up to raycast from their position to the user, to see
+what areas in the room can see the user without being blocked by obstacles. This allows
+the enemy to determine where to move, depending if they want to shoot the enemy, in which
+case they will move near to a node that can see the user, or if they want to find cover, in
+which case they will move to a node that cannot see the user. If there are multiple nodes
+available, one will be chose at random to keep the enemies moving around. All of this 
+functionality is shown in the Pathfinding AI file and the States file.

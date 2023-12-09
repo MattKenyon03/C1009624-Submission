@@ -1,0 +1,3 @@
+Read Me
+
+To access scenes if blank scene comes up, click on "Menu" scene in the Scenes folder.
